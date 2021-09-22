@@ -1,4 +1,4 @@
-## 參考:https://github.com/madscheme/introducing-python
+## 購買書籍備註與參考:https://github.com/madscheme/introducing-python
 
 #### Ch01 初嘗PY
 #### Ch02 資料:型態、值、變數與名稱
