@@ -1,5 +1,5 @@
-Introducing Python -- Second Edition
-=================
+## 參考:https://github.com/madscheme/introducing-python
 
-This repository contains the programs featured in 
-the second edition of the book _Introducing Python_.
+#### Ch01 
+  >  123
+1. 模型
