@@ -101,8 +101,34 @@
    + list( range(0,11,2) ) 0到10間偶數
 
 #### Ch07 tuple與串列
-1. 用逗號與()來建立
-   + aaa = ('bbb')
-   + aaa = 'bbb'
-   + 拆包 a,b,c = aaa
-2. 用tuple()來建立
+1. tuple
+   + 用逗號與()來建立
+     + aaa = ('bbb')
+     + aaa = 'bbb'
+     + 拆包 a,b,c = aaa
+   + 用tuple()來建立 - 將list轉換成tuple
+   + 用 + 來結合Tuple - ('aaa') + ('bbb')
+   + 用 * 來重複項目 - (aaa) * 3
+   + 比較tuple - a = b
+   + 用for與in來迭代 - for word in words
+   + 修改tuple - 不可變
+2. 串列
+   + 用[]來建立
+   + 用List()來建立或轉換
+   + 用split()和字串來建立 - aaa.split('/')
+   + 用[offset]來建立 - aaa[0]
+   + 用slice取得項目 - aaa[0:2]
+   + 用append()將項目加到尾端 - aaa.append('bbb')
+   + 用insert()和offset加入項目 - aaa.insert(2, 'bbb')
+   + 用*來重複所有項目
+   + 用extend()或+來結合串列  aaa.extend(字串) - 如果用append 會有子串列 非合併
+   + 用[offset]改變項目
+   + 用slice改變項目
+   + 用del和offset來刪除項目 - del aaa[1]
+   + 用remove與值來刪除項目 aaa.remove('aaa')
+   + 用pop()和offset取出項目並刪除他 aaa.pop() 會彈最後面的FIFO
+   + 用clear()刪除所有項目 aaa.clear()
+   + 用index()和值來找到項目的offset aaa.index('aaa')
+   + 用in來檢測值是否存在  'aaa' in aaa
+   + 
+3. 
