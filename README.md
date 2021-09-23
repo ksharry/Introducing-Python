@@ -130,5 +130,29 @@
    + 用clear()刪除所有項目 aaa.clear()
    + 用index()和值來找到項目的offset aaa.index('aaa')
    + 用in來檢測值是否存在  'aaa' in aaa
-   + 
-3. 
+   + 用count()來計算一個值出現的次數
+   + 用join()串列轉換成字串 - ', '.join(marxes)
+   + 用sort()或sorted()來排序 
+     + sort()可就地排序  aaa.sort()
+     + sorted()回傳串列副本 aaa_1 = sorted(aaa)
+     + reverse=True
+   + 用len() 取得長度
+   + 用 = 來賦值
+   + 用copy() list() slice來複製
+     + aaa = a.copy()
+     + aaa = list(a)
+     + aaa = a[:]
+   + 用deepcopy()來複製東西 - 如第二層需要改變值，需用到此函數
+   + 比較串列
+   + 用for與in來迭代
+   + 用zip()迭代多個序列 平行迭代  可用來直向來製作字典。 dict(zip(english, french))
+   + 用生成式來建立串列 
+     + number_list = [number-1(運算式) for number(項目) in range(1,6)(可迭代物)]
+     + a_list = [number for number in range(1,6) if number % 2 == 1(條件式)]
+     + cells = [(row,col) for row in rows for col in cols]
+   + 串列的串列
+3. tuple vs. 串列 - 前者空間小，後著較好用
+4. python沒有tuple生成式 - 產生器生成式(generator)
+
+#### Ch08 字典與集合
+1. 
