@@ -39,7 +39,6 @@
 6. 新功能:我是海象(walrus) name := expression
 
 #### Ch05 文字字串
-  >  
 1. 用引號來建立-三引號可用再多行字串
 2. 用str()來建立
 3. 用\來轉義
@@ -73,6 +72,37 @@
     + aaa.rjust(30)
 16. 格式化
     + 舊式：％
-    + aaa.ljust(30)
-    + aaa.rjust(30)
-17. 
+      + %s 字串
+      + %d 十進
+      + %x 十六進
+      + %o 八進
+      + %f 十進浮點
+      + %e 指數
+      + %g 十進浮點
+      + %% 常數
+      + 用法::'%s' % (cat)
+    + 新式：{}與format()
+      + 'The {} is in the {}.'.format(thing, place)
+    + 最新式：f-strings 
+      + python 3.6以上
+      + f'The {thing} is in the {place}'
+      + python 3.8以上  除錯用 : f'{thing =}, {place =} 連同變數印出來
+
+#### Ch06 用while與for來執行迴圈
+  >  
+1. 用while來重複執行
+2. 用break來取消
+3. 用continue來跳過
+4. 用else來檢查break
+5. 用for與in來迭代
+6. 用range()來產生數字序列
+   + for x in range(0,3)
+   + for x in range (2, -1, -1)  2到0
+   + list( range(0,11,2) ) 0到10間偶數
+
+#### Ch07 tuple與串列
+1. 用逗號與()來建立
+   + aaa = ('bbb')
+   + aaa = 'bbb'
+   + 拆包 a,b,c = aaa
+2. 用tuple()來建立
