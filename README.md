@@ -155,4 +155,60 @@
 4. python沒有tuple生成式 - 產生器生成式(generator)
 
 #### Ch08 字典與集合
-1. 
+1. 字典
+   + 用{}來建立
+   + 用dict()來建立
+   + 用dict()來轉換 -第一個為鍵，第二個為值
+   + 用[鍵]來加入或改變一個項目
+   + 用[key]或[get]取得一個項目 - aaa.get('aaa')
+   + 用keys() 取得所有鍵 - list(aaa.keys())
+   + 用values()取得所有值  list(aaa.values())
+   + 用items()取得每一對鍵/值  list(aaa.items())
+   + 用len()取得長度   len(aaa)
+   + 用{**a,**b}來結合字典  -  合併 為淺副本
+   + 用update() 結合字典  aaa.update(bbb)
+   + 用del和鍵來刪除項目   del aaa['aaa']
+   + 用pop()取得並刪除它  aaa.pop('aaa')
+   + 用clear()刪除項目
+   + 用in來檢測鍵  'aaa' in aaa
+   + 用 = 來賦值  aaa['bbb] = bbb_valuse
+   + 用copy()來複製
+   + 用deepcopy()來複製所有東西
+   + 比較字典
+   + 用for 與 in 來迭代  for card in aaa or aaa.values()
+   + 字典生成式  aaa = {letter: aaa.count(letter) for letter in set(word) if letter in vowels}
+2. 集合
+   + 無排序
+   + 用set()來建立 新增項目用{}
+   + 用set()來轉換
+   + 用len()取得長度
+   + 用add加入項目
+   + 用remove()刪除項目
+   + 用for 與 in 來迭代
+   + 用in來檢測值是否存在
+   + 組合與運算子
+     + 聯集  a | b
+     + 差集  a - b
+     + 互斥  a ^ b
+     + 子集合 a < b
+     + 超集合 a >= b
+     + 真超集合  a > b
+   + 集合生成式 aaa = {number for number in range(1,6) if number % 3 = 1}
+   + 用frozenset()建立不可變集合  frozenset([3,2,1])
+   + 截至目前為止的資料結構
+   + 製作更大型的資料結構  gps座標
+
+#### Ch09 函式
+1. 用def定義函式
+2. 用小括號呼叫函式
+3. 引數與參數
+4. None是有用的
+5. 位置性引數 - def menu(wine, entree, dessert): - 缺點常忘記順序
+6. 關鍵字引數 - menu(entree='beef',dessert='bagel',wine='bordeaux)
+7. 指定預設參數值 - def menu(wine, entree, dessert='pudding) 如有參數根據參數為主，需進行清空動作
+8. 用*來炸開/收集位置引數 - def print_args(*args) - tuple
+9. 用*來炸開/收集關鍵字引數 - def print_kwargs(*kwargs) -dict
+10. 純關鍵字引數 - def aaa(data, *, start=0, end=100) - 單*表示後面變數要用具名引數
+11. 可變與不可變引數 - 函數內儘量不要改變引數，需透過return
+12. Docstrings - 函數下說明 可使用 ' ' or '''   ''' - 可用help(函數)來看說明
+13. 
