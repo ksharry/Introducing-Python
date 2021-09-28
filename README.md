@@ -282,7 +282,7 @@
 19. 產生器生成式 - 類似產生器，只是在小括號，暗中執行yield
     ``` python
     genobj = (aaa((['a','b'],['1','2'])) 
-    for ghing in genobj:
+    for hing in genobj:
       pring(thing)
     ('a','1')
     ('b','2')
