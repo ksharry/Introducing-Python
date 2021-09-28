@@ -307,4 +307,41 @@
 27. 製作你自己的例外  Exception
 
 #### Ch10 喔喔 : 物件與類別
-1. 
+1. 物件 - 有屬性跟方法
+   + 用class定義類別 class Cat():
+   + 屬性 a_cat.age = 3
+   + 方法
+   + 初始化 def __init__(self):
+2. 繼承
+   + 從父類別繼承 - class Yugo(Car): 繼承car
+   + 複寫方法 - 將Def重寫 - yogo自己的print
+   + 添加方法 - 多寫新類別的DEF - yugo多一個功能
+   + 用super()來取得父類別的幫助 - 用繼承無法保留父類別的功能 - 如要連動需使用super()
+   + 多重繼承 - 方法解析順序 - 祖父、父母、子  往上推
+   + Mixin - 輔助類別(helper) class PrettyMixin():
+   + 自(self)衛 : 第一個引數為self
+3. 屬性存取
+   + 直接存取
+     + 正確: fowl = Duck('aaa')
+     + 錯誤: fowl.name = 'Daphne'
+   + getter與setter 屬性的隱私介紹
+   + 用來存取屬性的property
+     + getter前面加上@property
+     + setter前面加上@name.setter
+   + 用property回傳算出來的值 
+    ``` python
+    @_document_it
+    def Circle(self, radius):
+      def __init__(self, radius):
+        self.radius = radius
+      @property 
+      def diameter(self):
+        return 2 * self.radius
+      c = Circle(5)
+      c.radius
+      5
+      c.diameter   #但不可用c.diameter=20，隱私，會出錯
+      10 
+    ```
+   + 修飾名稱來保護隱私
+4. 
