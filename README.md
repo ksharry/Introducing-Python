@@ -217,7 +217,8 @@
     def aaa(a, b) 
       def bbb(c,d)
         return c + d
-      return inner(a,b)  
-    aaa(4,7)  -  11
+      return aaa(a,b)  
+    aaa(4,7)
+    11
     ```
 15. - 
