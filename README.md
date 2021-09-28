@@ -330,7 +330,6 @@
      + setter前面加上@name.setter
    + 用property回傳算出來的值 
     ``` python
-    @_document_it
     def Circle(self, radius):
       def __init__(self, radius):
         self.radius = radius
