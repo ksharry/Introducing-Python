@@ -227,4 +227,40 @@
     aaa(4,7)
     11
     ```
-15. - 
+15. closure - 可以更改或記得函式外面建立的值
+    ``` python
+    def aaa(saying) 
+      def bbb()
+        return "we are the knights who say: '%s'" % saying"
+      return bbb  
+    a = aaa('Duck')
+    b = aaa('Hasenpfeffer')
+    a()
+    we are the knights who say:Duck
+    b()
+    we are the knights who say:Hasenpfeffer
+    ```
+16. 匿名函式：lambda - 取代小函式
+    ``` python
+    def aaa(words, func) 
+      for word in words:
+        print(func(word))
+    stairs = ['thud','meow','thud','hiss']
+    def enliven(word):
+      return word.capitalize() + '!'
+    aaa(stairs,enliven)
+    Thud!
+    Meow!
+    ...
+    ```
+    ``` python
+    def aaa(words, func) 
+      for word in words:
+        print(func(word))
+    stairs = ['thud','meow','thud','hiss']
+    aaa(stairs, lambda word: word.capitalize() + '!'
+    Thud!
+    Meow!
+    ...
+    ```
+17. 
