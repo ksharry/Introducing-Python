@@ -259,10 +259,10 @@
         print(func(word))
     stairs = ['thud','meow','thud','hiss']
     aaa(stairs, lambda word: word.capitalize() + '!'
-    ```
     Thud!
     Meow!
     ...
+    ```
 17. 產生器(generator) - sum(range(1,101)) - 5050
 18. 產生器函式 - 回傳用yield  -  只能使用一次
     ``` python
@@ -274,11 +274,11 @@
     ranger = aaa(1,5)
     for x in ranger:
       print(x)
-    ```
     1
     2
     3
     4
+    ```
 19. 產生器生成式 - 類似產生器，只是在小括號，暗中執行yield
     ``` python
     genobj = (aaa((['a','b'],['1','2'])) 
@@ -287,4 +287,24 @@
     ('a','1')
     ('b','2')
     ```
-20. 裝飾器
+20. 裝飾器 - 接收一個函式，並回傳另一個函式
+    ``` python
+    @_document_it
+    def add_ints(a, b):
+      return a + b
+      
+    add ints(3,5)
+    start function add_ints
+    position arguments: (3,5)
+    ...
+    ```
+21. 名稱空間與作用域 - 全域與區域變數
+22. 在名稱內使用_與__  -  使用兩個底線表示保留字串，不可改變  -  aaa.__name__ 
+23. 遞迴 - yield from flatten(item) 
+24. 非同步函式  -  async , await
+25. 例外
+26. 用try 和 except來處理錯誤 except exceptiontype as name
+27. 製作你自己的例外  Exception
+
+#### Ch10 喔喔 : 物件與類別
+1. 
