@@ -211,4 +211,11 @@
 10. 純關鍵字引數 - def aaa(data, *, start=0, end=100) - 單*表示後面變數要用具名引數
 11. 可變與不可變引數 - 函數內儘量不要改變引數，需透過return
 12. Docstrings - 函數下說明 可使用 ' ' or '''   ''' - 可用help(函數)來看說明
-13. 
+13. 函式是一級公民 - 函式內可再放函式 - aaa(add_args, 5, 9)     
+14. 內部函式 - 內部函式自動接上一層變數 
+    > def aaa(a, b) 
+        def bbb(c,d)
+          return c + d
+        return inner(a,b)  
+      aaa(4,7)  -  11
+15. - 
