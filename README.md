@@ -259,10 +259,10 @@
         print(func(word))
     stairs = ['thud','meow','thud','hiss']
     aaa(stairs, lambda word: word.capitalize() + '!'
+    ```
     Thud!
     Meow!
     ...
-    ```
 17. 產生器(generator) - sum(range(1,101)) - 5050
 18. 產生器函式 - 回傳用yield  -  只能使用一次
     ``` python
@@ -274,15 +274,15 @@
     ranger = aaa(1,5)
     for x in ranger:
       print(x)
+    ```
     1
     2
     3
     4
-    ```
 19. 產生器生成式 - 類似產生器，只是在小括號，暗中執行yield
     ``` python
     genobj = (aaa((['a','b'],['1','2'])) 
-    for hing in genobj:
+    for thing in genobj:
       pring(thing)
     ('a','1')
     ('b','2')
