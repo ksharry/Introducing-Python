@@ -397,4 +397,15 @@
         color = Color(255, 255, 255)
         print(color)
     ```
-10. 
+#### Ch11 模組、程式包與好東西
+1. 模組與import陳述式
+   + 匯入模組
+   + 用其他名稱匯入模組 import fast as f
+   + 只從模組匯入你想要的東西 from fast import pick
+   + 程式包 - 新增目錄導入
+   + 模組搜尋路徑 - import sys - sys.path - sysy.path.insert(0, "/my/modules"
+   + 相對與絕對匯入 from .. import rougarou
+   + 名稱空間程式包 - 多層目錄命名
+   + 模組 vs. 物件 - 模組:導入的變數可以使用並改變，物件的樹性要另外存取
+2. Python標準程式庫裡面的好東西
+   + 用setdefault()與defaultdict()處裡缺漏的鍵
