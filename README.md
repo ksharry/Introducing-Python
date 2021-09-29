@@ -342,5 +342,44 @@
       c.diameter   #但不可用c.diameter=20，隱私，會出錯
       10 
     ```
-   + 修飾名稱來保護隱私
-4. 
+   + 修飾名稱來保護隱私 - fowl.__Duck_name 可以讀取
+   + 類別與物件屬性 - 類別不會互相影響
+4. 方法型態
+   + 實例方法 - self
+   + 類別方法 - 影響所有物件 @classmethod - cls.count
+   + 靜態方法 - 不影響他的物件@staticmethod
+   + 鴨子定型 - 物件導向的多型
+   + 魔術方法 - 
+     + 比較
+       + __eq__ - == 
+       + __ne__ - !=
+       + __lt__ - <
+       + __gt__ - >
+       + __le__ - <=
+       + __ge__ - >=
+     + 算數
+       + __add__ - +
+       + __sub__ - -
+       + __mul__ - *
+       + __floordiv__ - //
+       + __truediv__  -/
+       + __mod__ - %
+       + __pow__ - **
+     + 其他
+       + __str__ 
+       + __repr__ 
+       + __len__ 
+5. 聚合與組合 - duct = Duct(a_bill, a_tail) - duck.about
+6. 何時該使用物件或其他東西
+   + 當你有很多實例，非常類似方法，但不同屬性時
+   + 類別可以繼承，模組不行
+   + 只需要使用一個某種東西，模組可能是最好選擇(java singleton)
+   + 字典
+   + 資料類別(dtaclass)
+7. 具名tuple - from collections import namedtuple - Duck = namedtuple('Duck', 'bill tail')
+   + 優點為不可變物件
+   + 解省空間與時間
+   + 句點點標記法取代字典風格
+   + 可以當字典使用
+8. 資料類別 - @dataclass 
+9. Attrs
