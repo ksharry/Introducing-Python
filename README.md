@@ -382,4 +382,19 @@
    + 句點點標記法取代字典風格
    + 可以當字典使用
 8. 資料類別 - @dataclass 
-9. Attrs
+9. Attrs - 主要省略很多魔術方法，attrs，它主要是用來修飾 class 類的，而 attrib 主要是用來做屬性定義的
+   + pip3 install attrs cattrs
+    ``` python
+    from attr import attrs, attrib
+ 
+    @attrs
+    class Color(object):
+        r = attrib(type=int, default=0)
+        g = attrib(type=int, default=0)
+        b = attrib(type=int, default=0)
+ 
+    if __name__ == '__main__':
+        color = Color(255, 255, 255)
+        print(color)
+    ```
+10. 
