@@ -409,3 +409,22 @@
    + 模組 vs. 物件 - 模組:導入的變數可以使用並改變，物件的樹性要另外存取
 2. Python標準程式庫裡面的好東西
    + 用setdefault()與defaultdict()處裡缺漏的鍵
+   + 用counter()來計算項目的數量
+   + 用orderedDict()與鍵來排序 - 是用python3.7以前
+   + 堆疊 + 佇列 == deque - 回文檢查 - 或使用 slic將字串反過來
+   + 用itertools來迭代程式結構
+     + clain() 讀取
+     + cycle() 重複
+     + accumulate() 總和
+     + accumulate(字典,函數) 計算
+   + 用pprint()印出漂亮的東西
+   + 取得隨機值 
+     + choice
+     + sample
+     + randint
+     + randrange
+     + random
+   + 其他的電池
+     + pypi
+     + github
+     + readthedocs
