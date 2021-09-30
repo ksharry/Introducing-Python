@@ -428,3 +428,29 @@
      + pypi
      + github
      + readthedocs
+#### Ch12 玩轉資料
+1. 文字字串:Unicode
+   + python 3 Unicode字串
+     + unicodedata.lookup
+     + unicodedata.name
+     + 'caf\u00e9'
+     + 'caf\N{LATIN SMALL LETTER E WITH ACUTE}'
+   + UTF-8 - 動態編碼方式  1-4個位元
+     + snowman = '\u2603'  #unicode字串
+     + len(snowman)    # 1
+     + ds = snowman.encode('utf-8')   # unicode字元編碼成byte
+     + len(ds)   # 3  b'\xe2\x98\x83
+   + 解碼 - place2 = place_bytes.decode('utf-8')
+   + HTML實體
+     + htmlunescape("&egrave;")
+     + html5["egrave"]
+     + python 要用 ord取得字元的十進制
+   + 標準化
+     + eacute1 ='e'         #UTF-8
+     + eacute2 = '\u00e9'   #unicode 碼位
+     + eacute3 = \'\N{LATIN SMALL LETTER E WITH ACUTE}'  #unicode 名稱
+     + eacute4 = chr(233)   #10
+     + eacute5 = chr(0xe9)  #16 
+2. 文字字串：正規表示式 
+   + 
+8. 
