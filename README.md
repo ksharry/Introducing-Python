@@ -451,6 +451,25 @@
      + eacute3 = \'\N{LATIN SMALL LETTER E WITH ACUTE}'  #unicode 名稱
      + eacute4 = chr(233)   #10
      + eacute5 = chr(0xe9)  #16 
-2. 文字字串：正規表示式 
-   + 
-8. 
+2. 文字字串：正規表示式   import re
+   + 用match()來確定開頭是否符合  re.match('*Frank', source)
+   + 用search()找到第一個符合的對象  re.search
+   + 用findall()尋找所有符合的對象  
+   + 用split()在符合的地方拆開
+   + 用sub()來替換符合的對象
+   + 模式:特殊字元
+     + . \n 外的字元
+     + * 任何
+     + ? 可有可無
+     + \d 一個數字
+     + \w 一個英數
+     + \s 空白 
+   + 模式:使用說明符 - ^ 開頭 $ 結尾 [] or
+   + 模式:指定match()輸出
+3. 二進制資料
+   + byte與bytearray - bytearray可以更改值 
+4. 用struct來轉換二進制資料
+5. 用binascii()來轉換byte /字串
+6. 位元運算子
+#### Ch13 日曆與時鐘
+1. 
