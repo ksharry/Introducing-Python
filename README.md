@@ -472,4 +472,79 @@
 5. 用binascii()來轉換byte /字串
 6. 位元運算子
 #### Ch13 日曆與時鐘
-1. 
+1. 閏年 - isleap
+2. datatime模組
+   + date
+   + time
+   + datetime
+   + timedelta(days=1)
+   + isoformat
+   + now
+   + combine
+3. 使用time模組 import time -絕對時間 - 要使用UTC來取代時區 -struct_time值
+4. 讀取與寫入日期與時間 - strftime() - strptime()
+5. 所有轉換
+#### Ch14 檔案與目錄
+1. 檔案輸出與輸入
+   + 用open()建立或開啟 - fileobj = open(filename,mode)
+     + r 讀取 w寫入 x寫入 a附註
+     + t 文字 b 二進制
+   + 用print() 寫入文字檔  fout = open('oops.txt', 'wt') - print('xxx', file=fout) - fout.close()
+   + 用write()寫入文字檔 fout.write(poem)
+   + 用read()、readline()或readlines()讀取文字檔
+   + 用write()寫入二進制檔案
+   + 用read()讀取二進制檔案
+   + 用with自動關閉檔案
+   + 用seek來更改位制 - tell回傳目前位位置
+2. 記憶體的對應
+3. 檔案操作
+   + 用exists來檢測是否存在
+   + 用isfile()來確認型態
+   + copy
+   + rename
+   + link symlink
+   + chomd
+   + chown
+   + remove
+4. 目錄操作
+   + midir
+   + rmdir
+   + listdir 來列出內容
+   + chdir 來切換目錄
+   + glob來列出相符合檔案
+5. 檔名
+   + abspath()取得路徑
+   + realpath()取得符號連結路徑名稱
+   + 用os.path.join鍵裡路徑名稱
+   + 使用pathlib
+6. BytesIO與StringIO
+#### Ch16 時間中的資料:程序與併行處理
+1. 程式與程序
+   + 說明
+     + os.getpid
+     + os.getgid
+     + os.getcwd
+   + 用 subprocess建立程序 .getoutput('date')取得程式輸出
+   + 用 multiprocessing來建立程序
+   + 用 terminate()終止程序
+   + 用 os取得系統
+     + os.uname
+     + os.getloadave
+     + os.cpu_count
+     + os.system() 類似終端機輸入命令
+   + 用psutil取得程序資訊
+     + pip install psutil
+     + psutil.cpu_times(True)
+2. 命令自動化
+   + 呼叫 - pipinstall invoke
+   + 並行 
+   + 佇列
+   + 程序
+   + 執行續 - 無法終止，因此多用multiprocessing
+   + concurrent.futures - worker - processes - threads
+   + 綠色執行與gevent 程式庫是事件式的程式庫
+   + twisted 非同步，事件是網路框架
+   + asyncio
+   + Redis
+   + 佇列之外的選項
+3. 
