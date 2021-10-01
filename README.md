@@ -576,5 +576,98 @@
    + 引擎層
    + SQL Expression Language
    + Object-Relational Mapper(ORM)
-   + 
-7. 
+   + 其他的資料庫存取程式包
+     + dataset
+     + records
+     + 
+7. NoSQL資料庫
+   + dbm家族
+   + Memcached
+   + Redis
+     + 字串
+     + 串列
+     + 雜湊
+     + 集合
+     + 有序集合
+     + 快取與過期
+7. 文件資料庫
+8. 時間序列資料庫
+9. 圖資料庫
+10. 其他的NoSQL
+11. 全文資料庫
+#### Ch17 空間中的資料:網路
+1. TCP/IP
+   + 通訊端
+   + Scapy
+   + Netcat
+2. 網路模式
+3. 請求/回覆模式
+   + ZeroMQ
+4. 其他的傳訊工具
+5. 發布/訂閱模式
+   + 其他的pub-sub工具
+6. 網際網路服務          
+   + 網域名稱系統
+   + python email模組
+   + 其他的協定
+7. web服務與API
+8. 資料序列化
+   + 用pickle來序列化
+   + 其他的序列化格式
+9. 遠端程式呼叫
+   + XML RPC
+   + JSON RPC
+   + MessagePack RPC
+   + Zerorpc
+   + gRPC
+   + Twirp
+10. 遠端管理工具
+    + Salt
+    + Puppet
+    + Ansible
+11. 肥大資料
+    + Hadoop
+    + Spark
+    + Disco
+    + Dask
+12. 雲端
+    + Amazon web
+    + google cloud
+    + Microsoft Azure
+    + openstack
+13. Docker
+    + kubernetes
+#### Ch18 網路，解開
+1. web用戶端
+   + 用telnet來測試
+   + 用curl來測試
+   + 用httpie測試
+   + 用httpbin測試
+2. Python的標準web程式庫
+   + 用http管理所有用戶端 / 伺服器的HTTP細節
+   + urllib是在http之上運行的
+3. 除了標準程式庫之外 : requests
+4. web伺服器
+   + 最簡單的python web伺服器 http.server
+   + web 伺服器閘道介面(WSGI)
+   + ASGI
+   + Apache
+   + NGINX
+   + 其他的python web 伺服器
+5. web伺服器框架
+   + Bottle
+   + Flask
+   + 將引數當成URL路徑的一部分來傳遞
+   + Django
+   + 其他的框架
+6. 資料庫框架
+7. WEB服務與自動化
+   + webbrowser
+   + webview
+8. web API與REST
+9. 爬網與刮網
+   + Scrapy
+   + BeaufifulSoup
+   + Requests-HTML
+#### Ch19 成為python鐵粉
+1. 
