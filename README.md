@@ -518,7 +518,7 @@
    + 用os.path.join鍵裡路徑名稱
    + 使用pathlib
 6. BytesIO與StringIO
-#### Ch16 時間中的資料:程序與併行處理
+#### Ch15 時間中的資料:程序與併行處理
 1. 程式與程序
    + 說明
      + os.getpid
@@ -547,4 +547,34 @@
    + asyncio
    + Redis
    + 佇列之外的選項
-3. 
+#### Ch16 盒子資料 : 持久保存
+1. 平面文字檔
+2. 有填補的文字檔
+3. 表格式文字檔
+4. CSV
+   + XML import xml.etree.ElementTree as et
+   + XML安全注意事項 fro deausedxml.ElementTree import parse
+   + HTML
+   + JSON dumps導入
+   + YAML 需用safe_load
+   + Tablib 
+   + Pandas
+   + 組態檔
+5. 二進制檔案
+   + 有填補的二進制檔案與記憶體對映
+   + 試算表
+   + HDF5
+   + TileDB
+6. 關聯資料庫
+   + SQL
+   + DB-API
+   + SQLLITE
+   + MYSQL
+   + SQLite
+   + PostgreSQL
+   + SQLAlchemy
+   + 引擎層
+   + SQL Expression Language
+   + Object-Relational Mapper(ORM)
+   + 
+7. 
