@@ -670,4 +670,29 @@
    + BeaufifulSoup
    + Requests-HTML
 #### Ch19 成為python鐵粉
-1. 
+1. 程式設計
+2. 尋找python程式
+3. 安裝程式包
+   + 使用pip
+   + 使用virtualenv
+   + 使用pipenv
+4. 使用程式包管理器
+5. 整合式開發環境
+   + IDLE 
+   + PyCharm
+   + IPython
+   + Jupyter Notebook
+   + JupyterLab
+6. 名稱與文件
+7. 加入型態提示
+8. 測試 - 
+   + pylint 評分 - pep8
+   + 用unittest來測試
+   + 用doctest來測試
+   + 用nose
+   + 其他的測試框架
+   + 持續整合
+9. 去除Python程式錯誤
+   + 使用print()
+   + 使用裝飾器
+   + 使用pdb
