@@ -695,4 +695,72 @@
 9. 去除Python程式錯誤
    + 使用print()
    + 使用裝飾器
-   + 使用pdb
+   + 使用pdb python -m pdb 
+   + 使用breakpoint()
+10. 紀錄錯誤訊息 logging
+11. 優化
+    + 計時 time、timeit
+    + 演萬法與資料結構 [value for value in range(1000)]
+    + Cython、NumPy與C擴展程式 - 用C寫得讓速度更快
+    + PyPy
+    + Numba
+15. 原始碼控制
+    + Mercurial
+    + Git
+16. 發布你的程式 - 特殊pex檔的執行格式
+
+#### Ch20 Py藝術
+1. 2-D圖形
+   + 標準程式庫
+   + PIL與Pillow
+   + ImageMagick  Wand
+2. 3-D圖
+3. 3-D動畫
+4. 圖形使用介面 tkinter
+5. 繪圖、圖形與視覺化
+   + Matplotlib
+   + Seaborn
+   + Bokeh
+   + 遊戲
+   + 音訊與音樂
+
+#### Ch21 Py上工
+1. Microsoft Office套件
+2. 執行商業工作
+3. 處裡商業資料
+4. 擷取、轉換與載入
+5. 資料驗證
+6. 開放原始碼商業程式包
+   + odoo
+   + tryton
+   + oscar
+   + grid studio
+7. 金融python
+8. 商業資料安全
+9. 地圖
+   + 格式
+   + 用形狀檔畫地圖
+   + Geopandas
+10. 應用程式與資料
+
+#### Ch22 Py科學
+1. 標準程式庫的數學與統計功能
+   + 數學函式
+   + 實數/虛數
+   + decimal
+   + fractions
+   + array
+   + statistics
+   + 矩陣乘法
+2. 科學python
+3. Numpy
+   + array
+   + arange
+   + zeros,ones,random
+   + reshape
+   + []
+   + 陣列數學
+   + 線性代數
+4. SciPy
+5. SciKit
+6. Pandas
